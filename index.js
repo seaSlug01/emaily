@@ -8,6 +8,8 @@ require('./services/passport');
 
 require('dotenv').config();
 
+// Some fuckkng comment in order to commit again
+
 mongoose
   .connect(keys.mongoURI)
   .then(() => {
